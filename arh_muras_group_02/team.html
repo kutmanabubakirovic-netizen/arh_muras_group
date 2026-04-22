@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КОМАНДА | ARH_MURAS_GROUP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <header class="site-header" id="siteHeader">
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <svg class="logo-svg" width="28" height="28" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="10" y="10" width="35" height="35" fill="none" stroke="currentColor" stroke-width="4"/>
+                    <rect x="55" y="10" width="35" height="35" fill="none" stroke="currentColor" stroke-width="4"/>
+                    <rect x="10" y="55" width="35" height="35" fill="none" stroke="currentColor" stroke-width="4"/>
+                    <rect x="55" y="55" width="35" height="35" fill="none" stroke="currentColor" stroke-width="4"/>
+                    <circle cx="50" cy="50" r="5" fill="currentColor"/>
+                </svg>
+                <span class="logo-text">ARH_MURAS_GROUP</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html">О СТУДИИ</a></li>
+                    <li><a href="projects.html">ПОРТФОЛИО</a></li>
+                    <li><a href="team.html" class="active">КОМАНДА</a></li>
+                    <li><a href="index.html#services">УСЛУГИ</a></li>
+                    <li><a href="index.html#contact">КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <button class="theme-toggle" id="themeToggle" title="Тёмная тема">
+                    <span class="theme-icon">◐</span>
+                </button>
+                <a href="tel:+996501059194" class="btn-outline" style="padding:9px 16px; font-size:11px;">📞 105-91-94</a>
+                <button class="burger" id="burgerBtn" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="container">
+            <span class="sub-label reveal">НАШИ ЛЮДИ</span>
+            <h1 class="reveal">КОМАНДА<br><em>ПРОФЕССИОНАЛОВ</em></h1>
+            <p class="page-hero-sub reveal">Опытные архитекторы, инженеры и дизайнеры, объединённые общей страстью к качеству.</p>
+        </div>
+    </section>
+
+    <!-- FOUNDERS -->
+    <section class="team-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="sub-label">ОСНОВАТЕЛИ</span>
+                <h2>Руководство студии</h2>
+            </div>
+            <div class="founders-grid reveal">
+                <div class="founder-card">
+                    <div class="founder-photo">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=700" alt="Дастан Баитов" loading="lazy">
+                        <div class="founder-social">
+                            <a href="https://instagram.com" target="_blank">IN</a>
+                            <a href="https://behance.com" target="_blank">BE</a>
+                        </div>
+                    </div>
+                    <div class="founder-info">
+                        <h3>Дастан Баитов</h3>
+                        <span class="founder-role">Главный архитектор · Основатель</span>
+                        <p>Выпускник Московского архитектурного института. 20+ лет опыта в проектировании жилых и коммерческих объектов в России, Казахстане и ОАЭ. Специалист в области устойчивой архитектуры.</p>
+                        <div class="founder-stats">
+                            <div><strong>50+</strong><span>проектов</span></div>
+                            <div><strong>20</strong><span>лет опыта</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="founder-card">
+                    <div class="founder-photo">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=700" alt="Диана Сейткали" loading="lazy">
+                        <div class="founder-social">
+                            <a href="https://instagram.com" target="_blank">IN</a>
+                            <a href="https://behance.com" target="_blank">BE</a>
+                        </div>
+                    </div>
+                    <div class="founder-info">
+                        <h3>Диана Сейткали</h3>
+                        <span class="founder-role">Арт-директор · Сооснователь</span>
+                        <p>Окончила Лондонскую школу архитектуры. Специализируется на интерьерном дизайне и концептуальных пространствах. Её работы публиковались в Architectural Digest и международных журналах.</p>
+                        <div class="founder-stats">
+                            <div><strong>35+</strong><span>интерьеров</span></div>
+                            <div><strong>18</strong><span>лет опыта</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SPECIALISTS -->
+    <section class="team-section team-section--gray">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="sub-label">СПЕЦИАЛИСТЫ</span>
+                <h2>Команда по направлениям</h2>
+            </div>
+
+            <!-- АРХИТЕКТУРА -->
+            <div class="direction-team reveal">
+                <div class="direction-team-header">
+                    <span class="dir-label">01</span>
+                    <h3>🏗️ Архитектура</h3>
+                </div>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400" alt="Артём Волков" loading="lazy">
+                            <div class="team-overlay"><p>BIM-моделирование и проектирование жилых комплексов</p></div>
+                        </div>
+                        <h4>Артём Волков</h4>
+                        <span>Архитектор-проектировщик</span>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400" alt="Айгерим Бекова" loading="lazy">
+                            <div class="team-overlay"><p>Специалист по экостроительству и зелёным технологиям</p></div>
+                        </div>
+                        <h4>Айгерим Бекова</h4>
+                        <span>Архитектор — Экодизайн</span>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=400" alt="Асан Базарбаев" loading="lazy">
+                            <div class="team-overlay"><p>Конструктивный расчёт, металлические конструкции</p></div>
+                        </div>
+                        <h4>Асан Базарбаев</h4>
+                        <span>Инженер-конструктор</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ГЕОДЕЗИЯ -->
+            <div class="direction-team reveal" style="margin-top:56px;">
+                <div class="direction-team-header">
+                    <span class="dir-label">02</span>
+                    <h3>🗺️ Геодезия</h3>
+                </div>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400" alt="Бакыт Жумагулов" loading="lazy">
+                            <div class="team-overlay"><p>Топографические съёмки и кадастровые работы</p></div>
+                        </div>
+                        <h4>Бакыт Жумагулов</h4>
+                        <span>Главный геодезист</span>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=400" alt="Нурбек Асанов" loading="lazy">
+                            <div class="team-overlay"><p>Лазерное сканирование и 3D-модели</p></div>
+                        </div>
+                        <h4>Нурбек Асанов</h4>
+                        <span>Специалист по сканированию</span>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&q=80&w=400" alt="Райна Волкова" loading="lazy">
+                            <div class="team-overlay"><p>Аэрофотосъёмка дроном и ортофотопланы</p></div>
+                        </div>
+                        <h4>Райна Волкова</h4>
+                        <span>Оператор дрона — сертифицирован</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ДИЗАЙН -->
+            <div class="direction-team reveal" style="margin-top:56px;">
+                <div class="direction-team-header">
+                    <span class="dir-label">03</span>
+                    <h3>🎨 Дизайн интерьера</h3>
+                </div>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400" alt="Жасмин Пирахматова" loading="lazy">
+                            <div class="team-overlay"><p>Дизайн жилых пространств, концептуальные интерьеры</p></div>
+                        </div>
+                        <h4>Жасмин Пирахматова</h4>
+                        <span>Дизайнер интерьера — Lead</span>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400" alt="Михаил Соколов" loading="lazy">
+                            <div class="team-overlay"><p>Коммерческие пространства, рестораны и отели</p></div>
+                        </div>
+                        <h4>Михаил Соколов</h4>
+                        <span>Дизайнер — Commercial</span>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="https://images.unsplash.com/photo-1507842450955-e51b14b01721?auto=format&fit=crop&q=80&w=400" alt="Елена Ридван" loading="lazy">
+                            <div class="team-overlay"><p>Специалист по световым сценариям</p></div>
+                        </div>
+                        <h4>Елена Ридван</h4>
+                        <span>Специалист по свету</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ЛАНДШАФТ -->
+            <div class="direction-team reveal" style="margin-top:56px;">
+                <div class="direction-team-header">
+                    <span class="dir-label">04</span>
+                    <h3>🌿 Ландшафтный дизайн</h3>
+                </div>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=400" alt="Сергей Петров" loading="lazy">
+                            <div class="team-overlay"><p>Ландшафтное проектирование, озеленение</p></div>
+                        </div>
+                        <h4>Сергей Петров</h4>
+                        <span>Ландшафтный архитектор</span>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=400" alt="Мира Иванова" loading="lazy">
+                            <div class="team-overlay"><p>Вертикальное озеленение, фитодизайн</p></div>
+                        </div>
+                        <h4>Мира Иванова</h4>
+                        <span>Фитодизайнер</span>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-photo">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400" alt="Таалай Кутманов" loading="lazy">
+                            <div class="team-overlay"><p>Системы полива, осушение и дренаж</p></div>
+                        </div>
+                        <h4>Таалай Кутманов</h4>
+                        <span>Инженер систем полива</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VALUES -->
+    <section class="values-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="sub-label">НАШИ ЦЕННОСТИ</span>
+                <h2>Что нас объединяет</h2>
+            </div>
+            <div class="values-grid reveal">
+                <div class="value-card">
+                    <div class="value-icon">⭐</div>
+                    <h3>Качество</h3>
+                    <p>Каждый проект выполняется на уровне международных стандартов без компромиссов.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🚀</div>
+                    <h3>Инновация</h3>
+                    <p>Используем современные технологии: BIM, дроны, AR/VR визуализацию.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">🌍</div>
+                    <h3>Устойчивость</h3>
+                    <p>Экологичные материалы и подходы на каждом этапе проектирования.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">👥</div>
+                    <h3>Клиент прежде всего</h3>
+                    <p>Мы слушаем, понимаем и воплощаем идеи каждого клиента.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <h3>ARH_MURAS_GROUP</h3>
+                        <p>Ваш проводник в мире высокой архитектуры.</p>
+                    </div>
+                    <div class="footer-nav-col">
+                        <h4>Навигация</h4>
+                        <ul>
+                            <li><a href="index.html">О нас</a></li>
+                            <li><a href="projects.html">Портфолио</a></li>
+                            <li><a href="team.html">Команда</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact-col">
+                        <h4>Контакты</h4>
+                        <p>📍 г. Бишкек, пр. Мурзакулова, 11</p>
+                        <p>📞 +996 (50) 105-91-94</p>
+                        <p>✉️ hello@arhmuras.kg</p>
+                    </div>
+                    <div class="footer-social-col">
+                        <h4>Соц. сети</h4>
+                        <div class="socials">
+                            <a href="https://instagram.com" target="_blank">INSTAGRAM</a>
+                            <a href="https://wa.me/996501059194" target="_blank">WHATSAPP</a>
+                            <a href="https://t.me/arhmuras" target="_blank">TELEGRAM</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2026 ARH_MURAS_GROUP. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="animations.js"></script>
+    <script>
+        const burger = document.getElementById('burgerBtn');
+        const nav    = document.getElementById('mainNav');
+        burger?.addEventListener('click', () => nav.classList.toggle('open'));
+    </script>
+</body>
+</html>
